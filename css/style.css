@@ -7,7 +7,21 @@ body{
     align-items: center;
     flex-direction: column;
     width: 100vw;
-    font-size: Verdana Tahoma sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+header{
+    width: 95%;
+    max-width: 788px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px;
+    margin-top: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .share{
@@ -15,4 +29,53 @@ body{
     height: 40px;
     border-radius: 20px;
     background-color: #3a4f52;
+}
+
+.container{
+    width: 91%;
+    max-width: 680px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.tiles{
+    width: 100%;
+    background-color: #3a4f52;
+    margin: 7px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-pp{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.img-pp img{
+    height: 110%;
+
+}
+
+.logo{
+    width: 44px;
+    height: 44px;
+    margin: 4px 8px;
+}
+
+.t-share{
+    margin: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #10f5cc;
 }
